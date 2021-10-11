@@ -28,7 +28,7 @@ class FilmList extends React.Component {
           extraData={this.props.favoritesFilm}
           keyExtractor={(item) => item.id.toString()}
           renderItem={({item}) => (
-            <FilmItem
+            <FilmItemd
               film={item}
               isFilmFavorite={(this.props.favoritesFilm.findIndex(film => film.id === item.id) !== -1) ? true : false}
               displayDetailForFilm={this._displayDetailForFilm}

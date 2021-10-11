@@ -11,8 +11,7 @@ class FilmItem extends React.Component {
     const { film, displayDetailForFilm } = this.props
 
     return (
-      <FadeIn
-      >
+      <FadeIn>
       <TouchableOpacity
         style={styles.main_container}
         onPress={() => displayDetailForFilm(film.id)}>

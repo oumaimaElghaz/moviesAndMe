@@ -1,6 +1,6 @@
 // Helpers/filmsData.js
 
-export default  data= [
+const  data= [
     {
        id:181808,
        vote_average:7.2,
@@ -21,4 +21,4 @@ export default  data= [
     }
  ]
  
- 
+ export default data
